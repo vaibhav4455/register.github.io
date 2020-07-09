@@ -1,0 +1,38 @@
+*{
+margin:0;
+padding:0;
+}
+.hero{
+height:100%;
+width:100%;
+background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(a.jpg);
+background-position:center;
+background-size:cover;
+position:absolute;
+}
+.formbox{
+width:380px;
+height:480px;
+position:relative;
+margin:6% auto;
+background:#fff;
+padding:5px;
+}
+.buttonbox{
+width:220px;
+margin:35px auto;
+position:relative;
+box-shadow:0 0 20px 9px #ff61241f;
+border-radius:30px;
+}
+#btn{
+top:0;
+left:0;
+position:absolute;
+width:100px;
+height:100%;
+background:linear-gradient(to right,#ff105f,#ffad06);
+border-radius:30px;
+transition:.5s;
+}
+
